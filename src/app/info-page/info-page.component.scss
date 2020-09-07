@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Arvo:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+
+body {
+  background: #cdd1db;
+  font-family: 'Arvo', serif;
+	font-size: 24px;
+  overflow: hidden;
+  margin: 0;
+  padding: 0;
+}
+
+.parallax {
+  height: 100vh;
+  overflow-x: hidden;
+  overflow-y: auto;
+  -webkit-perspective: 1px;
+  perspective: 1px;
+}
+
+.parallax-layer {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  padding-left:0;
+  bottom: 0;
+  padding: 100vh;
+  white-space: nowrap;
+}
+
+.parallax-layer.one {
+  color: #141415;
+  -webkit-transform: translateZ(0);
+  transform: translateZ(0);
+}
+
+.parallax-layer.two {
+  color: #28282b;
+  -webkit-transform: translateZ(-.25px);
+  transform: translateZ(-.25px);
+}
+
+.parallax-layer.three {
+  color: #3c3d40;
+  -webkit-transform: translateZ(-.5px);
+  transform: translateZ(-.5px);
+}
+
+.parallax-layer.four {
+  color: #505156;
+  -webkit-transform: translateZ(-.75px);
+  transform: translateZ(-.75px);
+}
+
+.parallax-layer.five {
+  color: #64666c;
+  -webkit-transform: translateZ(-1px);
+  transform: translateZ(-1px);
+}
+
+.parallax-layer.six {
+  color: #787a81;
+  -webkit-transform: translateZ(-1.25px);
+  transform: translateZ(-1.25px);
+}
+
+.parallax-layer.seven {
+  color: #8c8e97;
+  -webkit-transform: translateZ(-1.5px);
+  transform: translateZ(-1.5px);
+}
+
+.parallax-layer.eight {
+  color: #a0a3ac;
+  -webkit-transform: translateZ(-1.75px);
+  transform: translateZ(-1.75px);
+}
+
+.parallax-layer.nine {
+  color: #b4b7c2;
+  -webkit-transform: translateZ(-2px);
+  transform: translateZ(-2px);
+}
+
+.parallax-layer.ten {
+  color: #c8ccd8;
+  -webkit-transform: translateZ(-2.25px);
+  transform: translateZ(-2.25px);
+}
