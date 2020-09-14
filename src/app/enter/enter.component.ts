@@ -62,9 +62,7 @@ export class EnterComponent implements OnInit {
         window.requestAnimationFrame =
           window.requestAnimationFrame ||
           window.webkitRequestAnimationFrame 
-          function(cb) {
-            setTimeout(cb, 17);
-          };
+         
     
         /********************
           Shape
