@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-
+import {ActivatedRoute, Router} from '@angular/router';
 @Component({
   selector: 'app-info-page',
   templateUrl: './info-page.component.html',
@@ -7,7 +7,9 @@ import { Component, OnInit } from '@angular/core';
 })
 export class InfoPageComponent implements OnInit {
 
-  constructor() { }
+  constructor(private route: ActivatedRoute,
+    private router: Router) {
+}
 
   ngOnInit(): void {
 
@@ -42,6 +44,12 @@ export class InfoPageComponent implements OnInit {
   });
 
 }());
+  }
+
+  navigateToInfo() : void {
+    this.router.navigate(['/enter']).then(() => {
+      window.location.reload();
+    });
   }
 
 }

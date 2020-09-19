@@ -7,9 +7,7 @@ import { Component, OnInit } from '@angular/core';
 })
 export class EnterComponent implements OnInit {
 
-  constructor() { }
-
-  ngOnInit(): void {
+  constructor() { 
     (function () {
       'use strict';
       window.addEventListener('load', function () {
@@ -203,6 +201,9 @@ export class EnterComponent implements OnInit {
     })();
     
     
+  }
+
+  ngOnInit(): void {
   }
 
 }
