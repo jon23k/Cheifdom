@@ -1,31 +1,95 @@
-* {
-    font-family: 'arial black', Helvetica, verdana, monospace, sans-serif;
-    letter-spacing: 0.2rem;
-    margin: 0;
-    padding: 0;
-    color: rgb(241,206,86);
-    overflow: hidden;
-  }
-  
-  body {
-    position: relative;
-  }
-  
-  canvas#canvas {
-    display: block;
-    background: rgb(56,101,67);
-  }
-  
-  h2 {
-    background: rgba(0, 0, 0, 0.7);
-    position: absolute;
-    top: 0;
-    right: 1.6rem;
-    height: 100%;
-    text-align: center;
-    font-size: 1rem;
-    padding: 0.8rem;
-    -webkit-writing-mode: vertical-rl;
-        -ms-writing-mode: tb-rl;
-            writing-mode: vertical-rl;
-  }
+.header {
+  font-family: 'Arvo', serif;
+  font-size: 24px;
+  overflow: hidden;
+  margin: 0;
+  padding: 0;
+}
+
+.parallax {
+  height: 100vh;
+  overflow-x: hidden;
+  overflow-y: auto;
+  -webkit-perspective: 1px;
+  perspective: 1px;
+  margin: 0;
+  background: #386543;
+}
+
+.parallax-layer {
+  font-family: 'Kumbh Sans', sans-serif;
+  font-size: 14rem;
+  position: absolute;
+  top: 0;
+  left: -50rem;
+  padding-left:0;
+  bottom: 0;
+  padding: 100vh;
+  white-space: nowrap;
+}
+
+.logo {
+  position: absolute;
+  left: 40%;
+
+}
+
+.parallax-layer.one {
+  color: #d2bd53;
+  -webkit-transform: translateZ(0);
+  transform: translateZ(0);
+}
+
+.parallax-layer.two {
+  color: #c3b451;
+  -webkit-transform: translateZ(-.1px);
+  transform: translateZ(-.1px);
+}
+
+.parallax-layer.three {
+  color: #b3ab50;
+  -webkit-transform: translateZ(-.2px);
+  transform: translateZ(-.2px);
+}
+
+.parallax-layer.four {
+  color: #a4a24e;
+  -webkit-transform: translateZ(-.3px);
+  transform: translateZ(-.3px);
+}
+
+.parallax-layer.five {
+  color: #949a4d;
+  -webkit-transform: translateZ(-.4px);
+  transform: translateZ(-.4px);
+}
+
+.parallax-layer.six {
+  color: #85914b;
+  -webkit-transform: translateZ(-.5px);
+  transform: translateZ(-.5px);
+}
+
+.parallax-layer.seven {
+  color: #768849;
+  -webkit-transform: translateZ(-.6px);
+  transform: translateZ(-.6px);
+}
+
+.parallax-layer.eight {
+  color: #667f48;
+  -webkit-transform: translateZ(-.7px);
+  transform: translateZ(-.7px);
+}
+
+.parallax-layer.nine {
+  color: #577746;
+  -webkit-transform: translateZ(-.8px);
+  transform: translateZ(-.8px);
+}
+
+.parallax-layer.ten {
+  color: #476e45;
+  -webkit-transform: translateZ(-.9px);
+  transform: translateZ(-.9px);
+}

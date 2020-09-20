@@ -1,12 +1,12 @@
 import { NgModule } from '@angular/core';
 import { Routes, RouterModule } from '@angular/router';
-import {EnterComponent} from './enter/enter.component';
-import {InfoPageComponent} from './info-page/info-page.component';
+import {EnterComponent} from './enter/enter.component'
+import {InfoComponent} from './info/info.component';
 
 const routes: Routes = [
   { path: 'enter', component: EnterComponent},
-  { path: 'info', component: InfoPageComponent},
-  { path: '**', component: InfoPageComponent}
+  { path: 'info', component: InfoComponent},
+  { path: '**', component: EnterComponent}
 ];
 
 @NgModule({
