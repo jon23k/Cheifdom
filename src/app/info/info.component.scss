@@ -7,11 +7,27 @@
     overflow: hidden;
   }
   
-  body {
-    position: relative;
+  .trueBody {
+    width: 68.5%;
+    height: 65%;
+    top: 15.5%;
+    left: 15%;
+    position: absolute;
+    background-color: rgb(56,101,67);
+    border: solid 3px white;
   }
 
-  
+  ul {
+    clear: both;
+    font-size: 10px;
+  }
+
+  .menu {
+    padding-top: 1%;
+    padding-left: 5%;
+    padding-right: 5%;
+    float: left;
+  }
   
   canvas#canvas {
     display: block;
@@ -19,7 +35,7 @@
   }
   
   h2 {
-    background: rgba(0, 0, 0, 0.7);
+    background: rgba(0, 0, 0, 0.3);
     position: absolute;
     top: 0;
     right: 1.6rem;
