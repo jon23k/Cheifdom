@@ -13,7 +13,6 @@ export class InfoComponent implements OnInit {
     graphics;
   }
 
-  ngOnInit(): void {
-  }
+  ngOnInit(): void {}
 
 }
